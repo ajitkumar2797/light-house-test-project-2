@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "serve:lhci": "NODE_ENV=production npm run server"
     "start:watch": "nodemon ./bin/www --ignore public/",
     "start:dev": "node ./bin/www",
     "debug": "node debug ./bin/www",
